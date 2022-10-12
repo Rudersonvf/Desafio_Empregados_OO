@@ -58,8 +58,8 @@ public class Department {
 	
 	public Double payroll() {
 		double sum = 0;
-		for(Employee emp : employee) {
-			sum += emp.getSalary();
+		for(Employee employees : employee) {
+			sum += employees.getSalary();
 		}
 		return sum;
 	}
